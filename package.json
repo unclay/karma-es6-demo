@@ -1,0 +1,31 @@
+{
+  "name": "karma-es6-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "keywords": [
+    "karma",
+    "es6",
+    "mocha",
+    "chai",
+    "webpack",
+    "browser"
+  ],
+  "author": "unclay<wcl58981298@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "chai": "^3.5.0",
+    "karma": "^1.3.0",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-mocha": "^1.3.0",
+    "karma-webpack": "^1.8.0",
+    "mocha": "^3.2.0",
+    "webpack": "^1.14.0"
+  }
+}
